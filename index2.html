@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"/>
+    <link rel="stylesheet" href="./css/style2.css" />
+    <!-- end css -->
+
+    <!-- js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="carousel.js"></script>
+    <!-- end js -->
+
+    <!-- fonts -->
+    
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    
+    <title>Baca Komik</title>
+  </head>
+
+
+  <body class="bg-image bg-cover " style="background-image:url(./img/patern.jpg) ;">
+<!-- NavBar -->
+    <nav class=" d-flex flex-column navbar-expand-lg navbar-dark bg-dark shadow-lg fixed-top py-3" id="navbar" style="transition: top 0.3s ease-in-out;" >
+      <div class="container pb-3  ">
+        <div class="logos mb-2">
+        <a class="navbar-brand" href="#">COBAIN</a>
+      </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-right" style="width: 100%;" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 justify-content-evenly" style="width: 80%;" >
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="#" href="#layanan">Layanan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="#" href="#portofolio">New Manga</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="#" href="#tentang">Menhwa</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="#" href="#staff">Library</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="#" href="#kontak">Kontak Kami</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+      <div class="header text-center fw-300  border-top  ">
+        <div class="content d-flex justify-content-center ">
+          <h4 class="m-2 p-1"><a href="#">Menhua</a></h4>
+          <h4 class="m-2 p-1"><a href="#">Terbaru</a></h4>
+          <h4 class="m-2 p-1"><a href="#">Daftar isi</a></h4>
+          <h4 class="m-2 p-1"><a href="#">Manga</a></h4>
+        </div>
+      </div>
+    </nav>
+    
+<!-- owl -->
+    <!-- <div class="container-fluid banner">
+      <div class="container text-center"> -->
+        <!-- <h4 class="display-6">Lorem ipsum dolor sit amet consectetur.</h4>
+        <h3 class="display-1">Hai! Halo!</h3> -->
+        
+        <!-- <a href="#layanan">
+          <button type="button" class="btn btn-danger btn-lg">Cek Layanan</button>
+        </a>
+      </div>
+    </div> -->
+<!-- end   -->
+
+<!-- start Carousel -->
+            
+    <div class="container mt-5 pt-5">
+      <h1 class="text-center fw-bold display-1 mt-5 pt-2 "> Manga<span class="text-danger">Populer</span></h1>
+      <div class="row">
+      <div class="col-12 m-auto">
+          <div class="owl-carousel owl-theme">
+              <div class="item mb-4">
+                  <div class="card border-0 shadow">
+                      <img src="1.jpg" alt="" class="imgcarousel">
+                      <div class="card-body">
+                          <div class="card-title text-center">
+                              <h4>Owl Carousel</h4>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="item">
+                  <div class="card border-0 shadow">
+                      <img src="3.jpg" alt="" class="imgcarousel">
+                      <div class="card-body">
+                          <div class="card-title text-center">
+                              <h4>Owl Carousel</h4>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="item">
+                  <div class="card border-0 shadow">
+                      <img src="4.jpg" alt="" class="imgcarousel">
+                      <div class="card-body">
+                          <div class="card-title text-center">
+                              <h4>Owl Carousel</h4>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="item">
+                  <div class="card border-0 shadow">
+                      <img src="5.jpg" alt="" class="imgcarousel">
+                      <div class="card-body">
+                          <div class="card-title text-center">
+                              <h4>Owl Carousel</h4>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="item">
+                  <div class="card border-0 shadow">
+                      <img src="6.jpg" alt="" class="imgcarousel">
+                      <div class="card-body">
+                          <div class="card-title text-center">
+                              <h4>Owl Carousel</h4>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="item">
+                  <div class="card border-0 shadow">
+                      <img src="7.jpg" alt="" class="imgcarousel">
+                      <div class="card-body">
+                          <div class="card-title text-center">
+                              <h4>Owl Carousel</h4>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="item">
+                <div class="card border-0 shadow">
+                    <img src="7.jpg" alt="" class="imgcarousel">
+                    <div class="card-body">
+                        <div class="card-title text-center">
+                            <h4>Owl Carousel</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+              <div class="card border-0 shadow">
+                  <img src="7.jpg" alt="" class="imgcarousel">
+                  <div class="card-body">
+                      <div class="card-title text-center">
+                          <h4>Owl Carousel</h4>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="item">
+            <div class="card border-0 shadow">
+                <img src="7.jpg" alt="" class="imgcarousel">
+                <div class="card-body">
+                    <div class="card-title text-center">
+                        <h4>Owl Carousel</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+          </div>
+      </div>
+  </div>
+</div>
+     
+
+<!-- end carousel -->
+
+<!-- Manga Terbaru -->
+
+    <div class="container bg-light mt-5 pt-2">
+      <h3 class="text-center m-4 pt-5">Manga Terbaru</h3>
+
+      <div class="text-center w-50 mx-auto ">. Praesentium rem hic repudiandae tempora libero non?</div>
+      <div class="row row-cols-md-6 pt-4 ">
+        <div class="col mb-5 ">
+          <div class="card shadow">
+            <img src="./img/picture4.jpg" class="card-img-top" />
+            <div class="card-body">
+              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-5">
+          <div class="card shadow">
+            <img src="./img/picture3.jpg" class="card-img-top" />
+            <div class="card-body">
+              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-5">
+          <div class="card shadow">
+            <img src="./img/picture3.jpg" class="card-img-top" />
+            <div class="card-body">
+              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-5">
+          <div class="card shadow">
+            <img src="./img/picture3.jpg" class="card-img-top" />
+            <div class="card-body">
+              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-5">
+          <div class="card shadow">
+            <img src="./img/picture3.jpg" class="card-img-top" />
+            <div class="card-body">
+              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-5">
+          <div class="card shadow">
+            <img src="./img/picture3.jpg" class="card-img-top" />
+            <div class="card-body">
+              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- end Manga Terbaru -->
+
+      <!--  Update Manga-->
+      <div class="container d-inline-block py-5">
+        <h1 class="text-center">Update Manga</h1>
+
+        <div class="row row-cols-md-6 row-cols-2  g-4 py-5 p-5">
+          <div class="col mb-5">
+            <div class="card card-sm" >
+            <img src="./img/picture2.jpg" class="updateManga" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Lorem, </h5>
+              <!-- <p class="card-text">. Eaque, suscipit!</p> -->
+            </div>
+            <!-- <div class="d-flex justify-content-around mb-5">
+                <h3>Lorem</h3>
+                <button class="btn btn-primary">Lmm.</button>
+              </div> -->
+          </div>
+        </div>
+        <div class="col">
+          <div class="card card-sm">
+            <img src="./img/picture3.jpg " class="updateManga" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Lorem, </h5>
+              <!-- <p class="card-text">. Eaque, suscipit!</p> -->
+            </div>
+            <!-- <div class="mb-5 d-flex justify-content-around">
+            <h3>lorem..</h3>
+            <button class="btn btn-primary">lorem2</button>
+          </div> -->
+          </div>
+        </div>
+        <div class="col">
+          <div class="card card-sm">
+            <img src="./img/picture4.jpg" class="updateManga "  />
+            <div class="card-body">
+              <h5 class="card-title">Lorem, .</h5>
+              <!-- <p class="card-text">. Eaque, suscipit!</p> -->
+            </div>
+            <!-- <div class="d-flex justify-content-around mb-5">
+              <h3>Lorem, .</h3>
+              <button class="btn btn-primary">Lorem dolor.</button>
+            </div> -->
+          </div>
+        </div>
+        <div class="col">
+          <div class="card card-sm">
+            <img src="./img/picture4.jpg" class="updateManga" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Lorem, .</h5>
+              <!-- <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, suscipit!</p> -->
+            </div>
+            <!-- <div class="d-flex justify-content-around mb-5">
+      <h3>Lorem, .</h3>
+      <button class="btn btn-primary">Lorem dolor.</button>
+    </div> -->
+          </div>
+        </div>
+        <div class="col">
+          <div class="card card-sm">
+            <img src="./img/picture4.jpg" class="updateManga" />
+            <div class="card-body">
+              <h5 class="card-title">Lorem, .</h5>
+              <!-- <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, suscipit!</p> -->
+            </div>
+            <!-- <div class="d-flex justify-content-around mb-5">
+    <h3>Lorem, .</h3>
+    <button class="btn btn-primary">Lorem dolor.</button>
+  </div> -->
+          </div>
+        </div>
+        <div class="col">
+          <div class="card card-sm">
+            <img src="./img/picture4.jpg" class="updateManga" />
+            <div class="card-body">
+              <h5 class="card-title">Lorem, .</h5>
+              <!-- <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, suscipit!</p> -->
+            </div>
+            <!-- <div class="d-flex justify-content-around mb-5">
+    <h3>Lorem, .</h3>
+    <button class="btn btn-primary">Lorem dolor.</button>
+  </div> -->
+          </div>
+        </div>
+      </div>
+      <!-- End Manga Update -->
+
+      <!-- Kontak Kami -->
+      <div class="container-fluid pt-5 pb-5 kontak">
+        <div class="container">
+          <h2 class="display-3 text-center" id="kontak">Kontak Kami</h2>
+          <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, cum? Consequuntur, laboriosam!</p>
+          <div class="row pb-3">
+            <div class="col-md-6">
+              <input class="form-control form-control-lg mb-3" type="text" placeholder="Nama" />
+              <input class="form-control form-control-lg mb-3" type="text" placeholder="Email" />
+              <input class="form-control form-control-lg mb-3" type="text" placeholder="Number-Phone" />
+            </div>
+            <div class="col-md-6">
+              <textarea class="form-control form-control-lg" rows="6"></textarea>
+            </div>
+          </div>
+          <div class="col-md-3 mx-auto text-center">
+            <button type="button" class="btn btn-danger btn-lg">Kirim kata-kata</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tambahkan disini  -->
+
+    <!--  -->
+
+  <!-- Kontak Kami -->
+
+    <div class="container text-center pt-5 pb-5">Semua Ditulis 2030 broo!!</div>
+    <!-- JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      var prevScrollpos = window.pageYOffset;
+      window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+        var navbar = document.getElementById("navbar");
+    
+        // Jika pengguna berada di paling atas halaman
+        if (currentScrollPos == 0) {
+          navbar.style.top = "0";
+        } else {
+          // Sembunyikan navbar jika pengguna scroll ke bawah
+          navbar.style.top = "-200px";
+        }
+    
+        prevScrollpos = currentScrollPos;
+      }
+    </script>
+    
+  </body>
+</html>
+
+<!-- Bootstrap CSS -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+crossorigin="anonymous"></script>
+
+<script src="carousel.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>;
+
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+crossorigin="anonymous" />
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+crossorigin="anonymous" />
+
+<script>

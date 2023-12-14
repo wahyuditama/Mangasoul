@@ -1,0 +1,59 @@
+.banner {
+    background: url("/img/dark-wallpapers.jpg") no-repeat center center;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: white;
+}
+
+.lingkaran {
+    display: inline-block;
+    border-radius: 50%;
+    width: 140px;
+    margin: auto;
+    height: 140px;
+    color: rgb(247, 247, 247);
+    background-color: rgb(211, 29, 29);
+}
+
+.lingkaran i{
+    position: relative;
+    top: 40px;
+    
+}
+
+.crop-img {
+    object-fit: cover;
+    width: 210px;
+    height: 360px;
+}
+
+.staff img {
+    width: 250px;
+    border: 10px solid rgb(255, 40, 40);
+
+} 
+
+a.social { 
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  border-radius: 50%;
+  background-color: #d30c0c;
+  line-height: 40px;
+}
+
+.client img {
+    height: auto;
+    max-height: 50px;
+
+}
+
+.kontak {
+    background: url(https://wallpaperaccess.com/full/1867010.jpg) no-repeat center center;
+    background-size: cover;
+    padding-bottom: 20%;
+    padding-top: 20%;
+    color: #fff;
+}
