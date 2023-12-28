@@ -10,7 +10,7 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./css/style2.css" />
+    <link rel="stylesheet" href="../css/style2.css" />
     <!-- end css -->
 
     <!-- js -->
@@ -40,6 +40,7 @@
       id="navbar"
       style="transition: top 0.3s ease-in-out"
     >
+   
       <div class="container pb-3">
         <div class="logos mb-2">
           <a class="navbar-brand" href="#">COBAIN</a>
@@ -125,9 +126,6 @@
       </div>
     </div> -->
     <!-- end   -->
-
-    <!-- start Carousel -->
-
     <div class="container mt-5 pt-5">
       <h1 class="text-center fw-bold display-1 mt-5 pt-2">
         Manga<span class="text-danger">Populer</span>
@@ -230,11 +228,9 @@
         </div>
       </div>
     </div>
-
-    <!-- end carousel -->
-
     <!-- Manga Terbaru -->
     <div class="container d-flex gap-4">
+        
       <div class="container bg-light mt-5 pt-2">
         <h3 class="text-center m-4 pt-5">Manga Terbaru</h3>
 
@@ -392,14 +388,11 @@
           </div>
         </div>
       </div>
-      <div class="sidebar">
-        <a href="#section1">Section 1</a>
-        <a href="#section2">Section 2</a>
-        <a href="#section3">Section 3</a>
-      </div>
-    </div>
+    
     <!-- End Manga Update -->
-
+    <?php
+    include 'sidebar.php';
+    ?>
     <!-- footer -->
     <footer
       class="text-center text-lg-start text-white shadow-sm rounded"
@@ -462,6 +455,8 @@
         </section>
       </div>
     </footer>
+    
+
     <!-- javascript -->
     <script src="js/scrollNavbar.js"></script>
     <script
