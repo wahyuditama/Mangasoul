@@ -114,17 +114,7 @@
       </div>
     </nav>
 
-    <!-- owl -->
-    <!-- <div class="container-fluid banner">
-      <div class="container text-center"> -->
-    <!-- <h4 class="display-6">Lorem ipsum dolor sit amet consectetur.</h4>
-        <h3 class="display-1">Hai! Halo!</h3> -->
 
-    <!-- <a href="#layanan">
-          <button type="button" class="btn btn-danger btn-lg">Cek Layanan</button>
-        </a>
-      </div>
-    </div> -->
     <!-- end   -->
     <div class="container mt-5 pt-5">
       <h1 class="text-center fw-bold display-1 mt-5 pt-2">
@@ -305,19 +295,14 @@
         <!--  Update Manga-->
         <div class="container d-inline-block py-5">
           <h1 class="text-center">Update Manga</h1>
-
           <div class="row row-cols-md-6 row-cols-2 g-4 py-5 p-5">
-            <div class="col mb-5">
+    <!-- Card  -->
+          <div class="col mb-5">
               <div class="card card-sm">
                 <img src="./img/picture2.jpg" class="updateManga" alt="..." />
                 <div class="card-body">
                   <h5 class="card-title">Lorem,</h5>
-                  <!-- <p class="card-text">. Eaque, suscipit!</p> -->
                 </div>
-                <!-- <div class="d-flex justify-content-around mb-5">
-                <h3>Lorem</h3>
-                <button class="btn btn-primary">Lmm.</button>
-              </div> -->
               </div>
             </div>
             <div class="col">
@@ -325,12 +310,7 @@
                 <img src="./img/picture3.jpg " class="updateManga" alt="..." />
                 <div class="card-body">
                   <h5 class="card-title">Lorem,</h5>
-                  <!-- <p class="card-text">. Eaque, suscipit!</p> -->
                 </div>
-                <!-- <div class="mb-5 d-flex justify-content-around">
-            <h3>lorem..</h3>
-            <button class="btn btn-primary">lorem2</button>
-          </div> -->
               </div>
             </div>
             <div class="col">
@@ -338,12 +318,7 @@
                 <img src="./img/picture4.jpg" class="updateManga" />
                 <div class="card-body">
                   <h5 class="card-title">Lorem, .</h5>
-                  <!-- <p class="card-text">. Eaque, suscipit!</p> -->
                 </div>
-                <!-- <div class="d-flex justify-content-around mb-5">
-              <h3>Lorem, .</h3>
-              <button class="btn btn-primary">Lorem dolor.</button>
-            </div> -->
               </div>
             </div>
             <div class="col">
@@ -351,12 +326,7 @@
                 <img src="./img/picture4.jpg" class="updateManga" alt="..." />
                 <div class="card-body">
                   <h5 class="card-title">Lorem, .</h5>
-                  <!-- <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, suscipit!</p> -->
                 </div>
-                <!-- <div class="d-flex justify-content-around mb-5">
-      <h3>Lorem, .</h3>
-      <button class="btn btn-primary">Lorem dolor.</button>
-    </div> -->
               </div>
             </div>
             <div class="col">
@@ -364,12 +334,7 @@
                 <img src="./img/picture4.jpg" class="updateManga" />
                 <div class="card-body">
                   <h5 class="card-title">Lorem, .</h5>
-                  <!-- <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, suscipit!</p> -->
                 </div>
-                <!-- <div class="d-flex justify-content-around mb-5">
-    <h3>Lorem, .</h3>
-    <button class="btn btn-primary">Lorem dolor.</button>
-  </div> -->
               </div>
             </div>
             <div class="col">
@@ -377,15 +342,11 @@
                 <img src="./img/picture4.jpg" class="updateManga" />
                 <div class="card-body">
                   <h5 class="card-title">Lorem, .</h5>
-                  <!-- <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, suscipit!</p> -->
                 </div>
-                <!-- <div class="d-flex justify-content-around mb-5">
-    <h3>Lorem, .</h3>
-    <button class="btn btn-primary">Lorem dolor.</button>
-  </div> -->
               </div>
             </div>
           </div>
+    <!-- End Card -->
         </div>
       </div>
     
