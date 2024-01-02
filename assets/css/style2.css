@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Fira Sans', sans-serif !important;
 }
 
 h4 a {
@@ -59,4 +60,70 @@ h4 a:hover {
 
 body {
   background: hsl(0, 0, 94%);
+}
+
+
+/* style */
+.main{
+    overflow: hidden;
+    max-width: 1220px;
+    margin: 0 auto;
+    margin-top: 35px;
+    position: relative;
+}
+.container-1{
+  width: 72%;
+  border-radius: 10px;
+  flex-direction: column;
+}
+.update{
+  background-color: #f8f9fa;
+ 
+}
+.container-2{
+  width: 28%;
+}
+.text-head{
+padding-left: 10px;
+padding-top: 10px;
+}
+.text-head h5{
+  text-transform: uppercase;
+ font-weight: 500;
+}
+.box{
+  width: 100%;
+  padding: 10px;
+}
+.img-tmp{
+width: 20%;
+position: relative;
+height: auto;
+overflow: hidden;
+margin: 10px;
+}
+.img-tmp a {
+  text-decoration: none;
+  color: black;
+}
+.img-tmp:hover .title-manga{
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Efek bayangan teks saat dihover */
+
+}
+.img-tmp .position-img{
+      width: 100%;
+      height: 200px; 
+      object-fit: cover;
+      transition: filter 0.3s ease;
+}
+.img-tmp:hover img {
+  filter: brightness(70%); /* Mengubah kecerahan gambar saat dihover */
+}
+.card-text{
+  padding-top: 10px;
+}
+.chapter{
+  font-size: 14px;
+color: rgba(0, 0, 0, 0.6);
 }
