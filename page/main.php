@@ -110,7 +110,6 @@
           <h4 class="m-2 p-1"><a href="#">Menwa</a></h4>
           <h4 class="m-2 p-1"><a href="#">Manga</a></h4>
           <h4 class="m-2 p-1"><a href="#">Terbaru</a></h4>
-          <h4 class="m-2 p-1"><a href="#">Terbaru</a></h4>
         </div>
       </div>
     </nav>
