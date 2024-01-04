@@ -107,9 +107,10 @@
       <div class="header text-center fw-300 border-top">
         <div class="content d-flex justify-content-center">
           <h4 class="m-2 p-1"><a href="#">Menwa</a></h4>
-          <h4 class="m-2 p-1"><a href="#">Terbaru</a></h4>
-          <h4 class="m-2 p-1"><a href="#">Daftar isi</a></h4>
+          <h4 class="m-2 p-1"><a href="#">Menwa</a></h4>
           <h4 class="m-2 p-1"><a href="#">Manga</a></h4>
+          <h4 class="m-2 p-1"><a href="#">Terbaru</a></h4>
+          <h4 class="m-2 p-1"><a href="#">Terbaru</a></h4>
         </div>
       </div>
     </nav>
