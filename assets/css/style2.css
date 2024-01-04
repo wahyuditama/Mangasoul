@@ -127,3 +127,54 @@ margin: 10px;
   font-size: 14px;
 color: rgba(0, 0, 0, 0.6);
 }
+.box-chatango{
+  background-color: #f8f9fa;
+  padding: 10px;
+}
+.box-tier-list{
+  background-color: #f8f9fa;
+  padding: 10px;
+}
+.tier-list{
+  width: 100%;
+  height: auto;
+}
+.box-img-tier{
+  width: 45%;
+  height: 100px;
+}
+.box-tier-list .tier-list .box-img-tier img{
+  width: 100%;
+  height: 100%;
+}
+.box-img-title-tier .title-tier-manga{
+  font-size: 15px;
+}
+.box-img-title-tier .genre-tier-manga{
+  font-size: 12px;
+}
+.genre-tier-manga span{
+  font-weight: 700;
+}
+.header-tier-list{
+align-items: center;
+padding-bottom: 20px;
+border-bottom: 1px solid rgb(0, 0, 0,.5);
+}
+.header-tier-list-text p{
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.header-tier-list-icon{
+  width:20%;
+  height: 50px;
+}
+.header-tier-list-icon img{
+  width: 100%;
+  height: 100%;
+}
+.tier-list{
+  border-bottom: 1px solid rgb(0, 0, 0,.5);
+  padding-bottom: 5px;
+
+}

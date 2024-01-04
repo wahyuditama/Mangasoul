@@ -39,7 +39,7 @@
     <!-- end slide bar -->
 
     <!-- Manga Terbaru -->
-    <div class="container d-flex">
+    <div class="container d-flex gap-5">
       <div class="container-1 d-flex gap-5">
         <div class="update">
           <div class="header">
