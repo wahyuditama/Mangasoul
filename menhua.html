@@ -1,22 +1,264 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Menhua</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  </head>
-  <body class="bg-secondary">
-    <div class="container mb-4 mt-4 rounded-3 shadow bg-white">
-        <!-- intro -->
-        <nav class="d-flex"></nav>
-    </div>
+    <!-- Link Boostrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!-- End Link Boostrap -->
+    <!-- Link CSS -->
+
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .card {
+        max-width: 40%;
+        flex-direction: row;
+        background-color: #696969;
+        border: 0;
+        box-shadow: 0 7px 7px rgba(0, 0, 0, 0.18);
+        margin: 1em auto;
+      }
+      .card.dark {
+        color: #fff;
+      }
+      .card.card.bg-light-subtle .card-title {
+        color: dimgrey;
+      }
+
+      .card img {
+        max-width: 25%;
+        margin: auto;
+        padding: 0.5em;
+        border-radius: 0.7em;
+      }
+      .card-body {
+        display: flex;
+        justify-content: space-between;
+      }
+      .text-section {
+        max-width: 60%;
+      }
+      .cta-section {
+        max-width: 40%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: space-between;
+      }
+      .cta-section .btn {
+        padding: 0.3em 0.5em;
+        /* color: #696969; */
+      }
+      .card.bg-light-subtle .cta-section .btn {
+        background-color: #898989;
+        border-color: #898989;
+      }
+      .search-container {
+      align-items: center;
+      width: 50%;
+    }
+    .form-control {
+      font-size: 18px; 
+      font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      background-color: aqua;
+    }
+
+    footer {
+      margin-top: 54px;
+    }
     
+      
+    </style>
 
+    <!-- End Link CSS -->
+  </head>
+  <body>
+    <div class="containelg ">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark shadow-lg">
+          <a class="navbar-brand m-4 fs-3" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 fs-4">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Menwa</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Library</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" aria-current="page" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Genre
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Romance</a></li>
+                  <li><a class="dropdown-item" href="#">Comedy</a></li>
+                  <li><a class="dropdown-item" href="#">Isekai</a></li>
+                  <li><a class="dropdown-item" href="#">Native Isekai</a></li>
+                </ul>
+              </li>
+            </ul>
+            <!-- <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form> -->
+          </div>
+      </nav>
 
+      <!-- End Navbar  -->
 
+      <!--  Search Bar -->
+      
+      <div class="search-container py-4 mx-auto text-center ">
+        <form class="form-inline ">
+          <div class="input-group ">
+            <input type="text" class="form-control " placeholder="MANGA + JUDUL" aria-label="Search" aria-describedby="basic-addon2">
+            <div class="input-group-append m-4 fs-4 shadow-lg">
+              <!-- <button class="btn btn-outline-secondary " type="button ">Search</button> -->
+            </div>
+          </div>
+        </form>
+      </div>
 
+      <!-- End Search Bar  -->
 
+     <!--  -->
+     <h3 class="text-center py-5 m">Lorem, ipsum dolor.</h3>
+      <div class="card dark">
+        <img src="https://via.placeholder.com/200x200" class="card-img-top" alt="...">
+        <div class="card-body">
+          <div class="text-section">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card's
+              content.</p>
+          </div>
+          <div class="cta-section">
+            <div>Lorem, ipsum.</div>
+            <a href="#" class="btn btn-light">Lorem</a>
+          </div>
+        </div>
+      </div>
+      <div class="card bg-light-subtle mt-4">
+        <img src="https://via.placeholder.com/200x200" class="card-img-top" alt="...">
+        <div class="card-body">
+          <div class="text-section">
+            <h5 class="card-title fw-bold">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card's content.</p>
+          </div>
+          <div class="cta-section">
+            <div>Lorem, ipsum.</div>
+            <a href="#" class="btn btn-dark">Lorem</a>
+          </div>
+        </div>
+      </div>
+      <div class="card bg-light-subtle mt-4">
+        <img src="https://via.placeholder.com/200x200" class="card-img-top" alt="...">
+        <div class="card-body">
+          <div class="text-section">
+            <h5 class="card-title fw-bold">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card's content.</p>
+          </div>
+          <div class="cta-section">
+            <div>Lorem, ipsum.</div>
+            <a href="#" class="btn btn-dark">Lorem</a>
+          </div>
+        </div>
+      </div>
+      <div class="card bg-light-subtle mt-4">
+        <img src="https://via.placeholder.com/200x200" class="card-img-top" alt="...">
+        <div class="card-body">
+          <div class="text-section">
+            <h5 class="card-title fw-bold">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card's content.</p>
+          </div>
+          <div class="cta-section">
+            <div>Lorem, ipsum.</div>
+            <a href="#" class="btn btn-dark">Lorem</a>
+          </div>
+        </div>
+      </div>
+      <div class="card bg-light-subtle mt-4">
+        <img src="https://via.placeholder.com/200x200" class="card-img-top" alt="...">
+        <div class="card-body">
+          <div class="text-section">
+            <h5 class="card-title fw-bold">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card's content.</p>
+          </div>
+          <div class="cta-section">
+            <div>Lorem, ipsum.</div>
+            <a href="#" class="btn btn-dark">Lorem</a>
+          </div>
+        </div>
+      </div>
+      <div class="card bg-light-subtle mt-4">
+        <img src="https://via.placeholder.com/200x200" class="card-img-top" alt="...">
+        <div class="card-body">
+          <div class="text-section">
+            <h5 class="card-title fw-bold">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card's content.</p>
+          </div>
+          <div class="cta-section">
+            <div>Lorem, ipsum.</div>
+            <a href="#" class="btn btn-dark">Lorem</a>
+          </div>
+        </div>
+      </div>
+      <div class="card bg-light-subtle mt-4">
+        <img src="https://via.placeholder.com/200x200" class="card-img-top" alt="...">
+        <div class="card-body">
+          <div class="text-section">
+            <h5 class="card-title fw-bold">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card's content.</p>
+          </div>
+          <div class="cta-section">
+            <div>Lorem, ipsum.</div>
+            <a href="#" class="btn btn-dark">Lorem</a>
+          </div>
+        </div>
+      </div>
+      <div class="card bg-light-subtle mt-4 ">
+        <img src="https://via.placeholder.com/200x200" class="card-img-top" alt="...">
+        <div class="card-body">
+          <div class="text-section">
+            <h5 class="card-title fw-bold">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card's content.</p>
+          </div>
+          <div class="cta-section">
+            <div>Lorem, ipsum.</div>
+            <a href="#" class="btn btn-dark">Lorem</a>
+          </div>
+        </div>
+      </div>
+      
+      
+    <!--  -->
+    
+      
+    <footer class="bg-light text-dark text-center py-2">
+      <div class="container-fluid mt-2 p-2">
+        <p>&copy; 2024 Your Website. All Rights Reserved.</p>
+        <p class="mt-5 text-center">Get a step-by-step written explanation here: <a href="https://codingyaar.com/bootstrap-5-product-card-bootstrap-horizontal-card-2/" target="_blank">Bootstrap 5 Horizontal Product Card</a></p>
+        <p class="mt-3 text-center">Get a step-by-step video explanation here: <a href="https://youtu.be/GaOKdDlR0lo" target="_blank">Bootstrap 5 Horizontal Product Card</a> </p>
+      </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
