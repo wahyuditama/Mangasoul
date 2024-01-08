@@ -20,7 +20,7 @@
                         "fwtickm": 1
                     }
                 }
-            </script>s
+            </script>
         </div>
     </div>
     <div class="box-tier-list d-flex flex-column gap-4">
@@ -35,7 +35,7 @@
         <div class="box-manga-tier-list d-flex flex-column gap-3">
             <div class="tier-list d-flex gap-2">
                 <div class="box-img-tier">
-                    <img src="assets/img/img-1.jpg" alt="">
+                    <img src="assets/img/img-1.jpg" alt="" class="shadow-img-black">
                 </div>
                 <div class="box-img-title-tier">
                     <p class="title-tier-manga">Kono Subarashī Sekai ni Shukufuku wo!</p>
@@ -44,7 +44,7 @@
             </div>
             <div class="tier-list d-flex gap-2">
                 <div class="box-img-tier">
-                    <img src="assets/img/img-1.jpg" alt="">
+                    <img src="assets/img/img-1.jpg" alt="" class="shadow-img-black">
                 </div>
                 <div class="box-img-title-tier">
                     <p class="title-tier-manga">Kono Subarashī Sekai ni Shukufuku wo!</p>
