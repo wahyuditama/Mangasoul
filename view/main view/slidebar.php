@@ -1,6 +1,6 @@
 <div class="container mt-5 pt-5">
   <h1 class="text-center fw-bold display-1 mt-5 pt-2">
-    pp<span class="text-danger">Populer</span></h1>
+    Manga<span class="text-danger">Populer</span></h1>
   <div class="row">
     <div class="col-12 m-auto">
       <div class="owl-carousel owl-theme">

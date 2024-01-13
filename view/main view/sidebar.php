@@ -1,7 +1,7 @@
 <div class="side-menu d-flex flex-column gap-5">
     <div class="box-chatango">
         <div id="chatango" style="width:100%;height:450px;">
-            <script id="cid0020000365340417511" data-cfasync="false" async src="//st.chatango.com/js/gz/emb.js" style="width: 100%;height: 100%;">
+            <script id="cid0020000365755606368" data-cfasync="false" async src="//st.chatango.com/js/gz/emb.js" style="width: 100%;height: 100%;">
                 {
                     "handle": "mangasouls",
                     "arch": "js",

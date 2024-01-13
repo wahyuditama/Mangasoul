@@ -7,7 +7,7 @@
     </div>
     <div class="box d-flex gap-3 flex-wrap">
         <div class=" img-tmp">
-            <a href="view/main view/manga/manga.php">
+            <a href="manga">
                 <img src="assets/img/img-1.jpg" alt="tumpnail" class="position-img shadow-img-black">
                 <div class="card-text">
                     <p class="title-manga">Kono Subarashī Sekai ni Shukufuku wo!</p>

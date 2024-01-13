@@ -1,17 +1,12 @@
-# <IfModule mod_rewrite.c>
-#     RewriteEngine On
-#     RewriteBase /Mangasoul/
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /Mangasoul/
 
-#     # Jika akses ke direktori utama, arahkan ke index.php
-#     RewriteRule ^$ index.php [L]
+  # Aturan pengalihan internal untuk /manga
+  RewriteRule ^manga$ view/main\ view/manga/manga.php [L]
 
-#     # Aturan lain sesuai kebutuhan Anda
-#     RewriteCond %{REQUEST_FILENAME} !-f
-#     RewriteCond %{REQUEST_FILENAME} !-d
-#     RewriteRule ^([^/]+)/?$ $1.php [QSA,L]
-
-#     # Aturan lain sesuai kebutuhan Anda
-#     RewriteCond %{REQUEST_FILENAME} !-f
-#     RewriteCond %{REQUEST_FILENAME} !-d
-#     RewriteRule ^(.+)$ index.php?nav=$1 [QSA,L]
-# </IfModule>
+  # Aturan pengalihan lainnya
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^ index.php [L]
+</IfModule>

@@ -183,16 +183,29 @@ border-bottom: 1px solid rgb(0, 0, 0,.5);
   padding-bottom: 5px;
 
 }
-.box-manga-inside{
+.bbx-mm-in{
   background-color: #f8f9fa;
-  padding: 25px;
   width: 72%;
+  box-shadow:10px 10px rgba(39, 39, 39, 0.5);
+  align-self: flex-start;
+}
+.box-manga-inside{
+  padding: 25px;
   display: flex;
   gap: 30px;
-  box-shadow:10px 10px rgba(39, 39, 39, 0.5);
+}
+.ssm{
+  width:28%;
+
 }
 .bbx-manga{
   width: 100%;
+  margin-top: 12em;
+  margin-bottom: 12em;
+  display: flex;
+  gap: 30px;
+  padding: 10px;
+
 }
 .box-manga-in{
   width: 25%;
@@ -207,4 +220,94 @@ border-bottom: 1px solid rgb(0, 0, 0,.5);
 }
 .title-manga-pptx{
   font-size: 1.7rem;
+}
+.pptx-sinopsis{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.pptx{
+  width: 75%;
+}
+.txt-in{
+  font-size: 1rem;
+  text-transform: capitalize;
+}
+.bbx-genre .txt-in{
+  display: inline-block;
+  font-size: 1em;
+  border-radius: 5px;
+  background: rgba(102, 102, 102, 0.5);
+  padding: 5px;
+}
+.bbx-tt-mmg{
+  padding: 1px 1px 1px 20px;
+}
+.bbx-tt-mmg p{
+  font-size: small;
+  padding: 10px;
+  background: rgba(0, 0, 0, .5);
+  display: inline-block;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: bolder;
+ 
+
+}
+.bbx-ch-mmg{
+  background-color: #00000036;
+  
+}
+.tbl-ch-mmg{
+  padding: 5px;
+}
+.tbl-b-in-ch-mmg{
+  border: 1px solid #00000036;
+  padding-top: 10px;
+
+}
+.tbl-b-in-ch-mmg ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.tbl-b-in-ch-mmg ul li {
+  background-color: #000000a9;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+}
+
+.tbl-in-ch-mmg {
+  display: flex;
+  flex-direction: column;
+  gap: 5px; /* Tambahkan properti gap untuk memberikan jarak antara "Chapter" dan tanggal */
+}
+
+.tbl-in-ch-mmg a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 15px;
+}
+.tbl-in-ch-mmg a:hover {
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 15px;
+}
+.download-mmg i{
+  background: aqua;
+}
+span.date {
+  color: #ccc; /* Warna abu-abu untuk tanggal */
+  font-size: 12px; /* Ukuran font 0.8em dari ukuran elemen di atasnya (chapter) */
 }
