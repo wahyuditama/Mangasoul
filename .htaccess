@@ -4,6 +4,9 @@
 
   # Aturan pengalihan internal untuk /manga
   RewriteRule ^manga$ view/main\ view/manga/manga.php [L]
+  
+  # Aturan pengalihan internal untuk /genre
+  RewriteRule ^genres$ view/main\ view/genres/genre_search.php [L]
 
   # Aturan pengalihan lainnya
   RewriteCond %{REQUEST_FILENAME} !-f

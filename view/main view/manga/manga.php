@@ -1,6 +1,9 @@
 <link rel="stylesheet" href="assets/css/style2.css">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<?php
+include "../navbar.php";
+?>
 <div class="bbx-manga">
     <div class="bbx-mm-in">
         <div class="box-manga-inside ">
@@ -8,9 +11,6 @@
                 <div class=" img-cover">
                     <a href="">
                         <img src="assets/img/img-1.jpg" alt="tumpnail" class="full-img ">
-                        <div class="card-text">
-
-                        </div>
                     </a>
                 </div>
             </div>
@@ -26,11 +26,21 @@
                 </div>
                 <div class="pptx-genre">
                     <div class="bbx-genre">
-                        <p class="txt-in">Genre </p>
+                        <a href="">
+                            <p class="txt-in">Genre </p>
+                        </a>
                     </div>
-                    <div class="bbx-genre">
-                        <p class="txt-in">Shonen</p>
-                        <p class="txt-in">Gorengan</p>
+                    <div class="bbx-genre flex-genres">
+                        <div class="genres">
+                            <a href="genres">
+                                <p class="txt-in">Shonen</p>
+                            </a>
+                        </div>
+                        <div class="genres">
+                            <a href="genres">
+                                <p class="txt-in">Shonen</p>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -72,22 +82,5 @@
 <?php
 include "../footer.php";
 ?>
-<script>
-    // Fungsi untuk mendapatkan tanggal dalam format "Month day, year"
-    function getFormattedDate() {
-        const options = {
-            year: 'numeric',
-            month: 'long',
-            day: 'numeric'
-        };
-        const formattedDate = new Date().toLocaleDateString('en-US', options);
-
-        return formattedDate;
-    }
-
-    // Mendapatkan semua elemen dengan class "date" dan mengisi dengan tanggal saat ini
-    const dateElements = document.querySelectorAll('.date');
-    dateElements.forEach(element => {
-        element.textContent = getFormattedDate();
-    });
-</script>
+<script src="assets/js/timeUpload.js"></script>
+<script src="assets/js/scrollNavbar.js"></script>

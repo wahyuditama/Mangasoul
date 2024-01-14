@@ -240,6 +240,23 @@ border-bottom: 1px solid rgb(0, 0, 0,.5);
   background: rgba(102, 102, 102, 0.5);
   padding: 5px;
 }
+.bbx-genre a{
+  text-decoration: none;
+  color: black;
+}
+.flex-genres{
+  display: flex;
+  gap: 10px;
+}
+.bbx-genre .txt-in:hover{
+  background: rgba(102, 102, 102);
+  align-self: flex-start;
+
+}
+.bbx-genre a:hover{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
 .bbx-tt-mmg{
   padding: 1px 1px 1px 20px;
 }
