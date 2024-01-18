@@ -73,7 +73,7 @@
     </div>
   </div>
   <div class="split_genres_box_2">
-    pp
+    <div class="box"></div>
   </div>
 </div>
 <!-- end Content -->
