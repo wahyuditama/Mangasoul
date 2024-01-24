@@ -11,6 +11,7 @@
     <title>Hello, world!</title>
   </head>
   <body style="background: url(./assets/img/pattern.jpg);">
+<!--     navbar -->
     <nav
       class="d-flex flex-column navbar-expand-lg navbar-dark bg-dark shadow-lg fixed-top py-3"
       id="navbar"
@@ -90,7 +91,7 @@
       </div>
     </nav>
 
-     <!--  -->
+<!--     form search -->
 <div class="container mt-5 pt-5">
 <div class="row  my-5">
     <div class="col-12">
@@ -100,10 +101,11 @@
     </div>
     </div>
 </div>
-<!--  -->
+    
+<!-- Review  -->
      <div class="container my-2 py-2" style="color: black;">
         <div class="row border">
-
+  <!--    card review -->
             <div class="card m-4" style="width: 24rem;">
                 <img src="..." class="card-img-top" alt="...">
                 <div class="card-body mt-5 mr-2">
@@ -140,14 +142,15 @@
                 </div>
               </div>
               
-         <!--  -->
+         <!-- end card -->
         </div>
      </div>
 
-     <!--  -->
+     <!-- content -->
      <h3 class="text-center py-5 m">Lorem, ipsum dolor.</h3>
      <div class="container">
      <div class="row border">
+<!--   row content one   -->
         <div class="col-md-6">
     <div class="card bg-light-subtle my-4">
         <img class="card-img-top" alt="...">
@@ -254,7 +257,8 @@
         </div>
       </div>
     </div>
-
+       
+<!-- Row Content two  -->
     <div class="col-md-6 ">
         <div class="card bg-light-subtle my-4">
             <img class="card-img-top" alt="...">
@@ -367,21 +371,19 @@
               </div>
             </div>
           </div>
-
-
-
-
+    <!-- Container -->
     </div>
+   </div>
 </div>
-</div>
-      
       
     <!--  End Content-->
+
+<!--  footer -->
       <h2 class="text-center mt-3"><span>Lorem, ipsum.</span></h2>
     <div class="container-fluid bg-dark mt-5">
       <div class="row">
         <div class="col-12 border">
-
+   <!-- card footer -->
           <div class="row">
             <div class="col-sm-6 mb-3 mb-sm-0">
               <div class="card bg-dark text-light">
@@ -402,7 +404,7 @@
               </div>
             </div>
           </div>
-
+<!-- end card footer -->
         </div>
       </div>
     </div>
