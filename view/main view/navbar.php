@@ -1,10 +1,17 @@
+<style>
+  a {
+    
+  text-decoration: none !important;
+
+  }
+</style>
 <nav
       class="d-flex flex-column navbar-expand-lg navbar-dark bg-dark shadow-lg fixed-top py-3"
       id="navbar" style="transition: top 0.3s ease-in-out">
    
       <div class="container pb-3">
         <div class="logos mb-2">
-          <a class="navbar-brand" href="#">COBAIN</a>
+          <a class="navbar-brand" href="/mangasoul">COBAIN</a>
         </div>
         <button
           class="navbar-toggler"
@@ -67,10 +74,10 @@
       </div>
       <div class="header text-center fw-300 border-top">
         <div class="content d-flex justify-content-center">
-          <h4 class="m-2 p-1"><a href="menhua.php">Menhua</a></h4>
-          <h4 class="m-2 p-1"><a href="menwa.php">Menwa</a></h4>
-          <h4 class="m-2 p-1"><a href="#">Daftar isi</a></h4>
-          <h4 class="m-2 p-1"><a href="#">Manga</a></h4>
+          <h4 class="m-2 p-1 nvb"><a href="menhuas">Menhua</a></h4>
+          <h4 class="m-2 p-1 nvb"><a href="menwas">Menwa</a></h4>
+          <h4 class="m-2 p-1 nvb"><a href="#">Daftar isi</a></h4>
+          <h4 class="m-2 p-1 nvb"><a href="#">Manga</a></h4>
         </div>
       </div>
     </nav>

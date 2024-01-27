@@ -334,12 +334,13 @@ span.date {
   margin-bottom: 12em;
   display: flex;
   gap: 30px;
-  padding: 10px;
+  padding: 10px !important;
 }
 .split_genres_box_1{
   background-color: #f8f9fa;
   width: 72%;
   align-self: flex-start;
+  padding: 10px;
 }
 .split_genres_box_2{
   width:28%;

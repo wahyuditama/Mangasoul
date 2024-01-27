@@ -57,23 +57,22 @@
 
     <!-- card Container -->
 
-    <div class="container-lg text-center" style="height: 100vh;">
-      <div class="row row-cols-md-3 m-2 row-cols-2 gx-4 p-6">
-        <!-- Card 1 -->
-        <div class="col">
-          <div class="card mt-4 pt-4" style="width: 18rem; height: 250px">
-            <img class="card-img-top" src="..." alt="Card image cap" />
-            <div class="card-body">
-              <h5 class="card-title">Card title 1</h5>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <div class=" img-tmp">
+            <a href="manga">
+                <img src="assets/img/img-1.jpg" alt="tumpnail" class="position-img shadow-img-black">
+                <div class="card-text">
+                    <p class="title-manga">Kono Subarashī Sekai ni Shukufuku wo!</p>
+                    <p class="chapter">chapter 121</p>
+                </div>
+            </a>
   </div>
+</div>
   <div class="split_genres_box_2">
-    <div class="box"></div>
+    <div class="box">
+      <?php
+      include "../sidebar.php";
+      ?>
+    </div>
   </div>
 </div>
 <!-- end Content -->
