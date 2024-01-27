@@ -67,8 +67,8 @@
       </div>
       <div class="header text-center fw-300 border-top">
         <div class="content d-flex justify-content-center">
-          <h4 class="m-2 p-1"><a href="page/menhua.php">Menhua</a></h4>
-          <h4 class="m-2 p-1"><a href="page/menwa.php">Menwa</a></h4>
+          <h4 class="m-2 p-1"><a href="menhua.php">Menhua</a></h4>
+          <h4 class="m-2 p-1"><a href="menwa.php">Menwa</a></h4>
           <h4 class="m-2 p-1"><a href="#">Daftar isi</a></h4>
           <h4 class="m-2 p-1"><a href="#">Manga</a></h4>
         </div>
