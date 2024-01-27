@@ -14,6 +14,7 @@
   <script src="carousel.js"></script>
   <!-- end js -->
 
+
   <!-- fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,7 +24,7 @@
   <title>Baca Komik</title>
 </head>
 
-<body class="bg-image bg-cover" style="background-image: url(./img/patern.jpg)">
+<body class="bg-image bg-cover" style="background-image: url(assets/img/patern.jpg)">
   <!-- NavBar -->
   <?php
   include "navbar.php";

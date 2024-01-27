@@ -166,13 +166,11 @@
         </div>
       </div>
     </div>
-
     <!-- Footer  -->
-    <footer class="bg-dark text-light text-center p-3 fixed-bottom">
-      <div class="container">
-        <p>2024 Mangasoul</p>
-      </div>
-    </footer>
+    <?php 
+    include "../view/main view/footer.php"
+    ?>
+    
     <!-- end Footer -->
 
     <script src="script.js"></script>
