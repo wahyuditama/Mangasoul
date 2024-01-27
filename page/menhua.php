@@ -10,6 +10,21 @@
 
     <title>Hello, world!</title>
   </head>
+  
+  <style>
+
+  .card-img-top {
+    height: 200px;
+    width: 200px;
+  }
+
+  .card-referee {
+    display: flex;
+  }
+  
+
+  </style>
+
   <body style="background: url(./assets/img/pattern.jpg);">
 <!--     navbar -->
     <nav
@@ -106,9 +121,10 @@
      <div class="container my-2 py-2" style="color: black;">
         <div class="row border">
   <!--    card review -->
+          <h1 class="text-center">menhua populer</h1>
             <div class="card m-4" style="width: 24rem;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body mt-5 mr-2">
+                <img src="../assets/img/orang 1.png" class="card-img-top" alt="...">
+                <div class="card-body mt-5 mr-2 ">
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                   <a href="#" class="btn btn-primary">Go somewhere</a>
@@ -149,23 +165,36 @@
      <!-- content -->
      <h3 class="text-center py-5 m">Lorem, ipsum dolor.</h3>
      <div class="container">
-     <div class="row border">
+     <div class="row border ">
 <!--   row content one   -->
         <div class="col-md-6">
-    <div class="card bg-light-subtle my-4">
-        <img class="card-img-top" alt="...">
-    <div class="card-body">
+     <div class="card-referee bg-light-subtle my-4 ">
+        <img src="../assets/img/orang 1.png" 1.png class="card-img-top" alt="...">
+         <div class="card-body ">
          <div class="text-section">
             <h5 class="card-title fw-bold">Card title</h5>
             <p class="card-text">Some quick example text to build on the card's content.</p>
         </div>
          <div class="cta-section">
-         <div>Lorem, ipsum.</div>
-                 <a href="#" class="btn btn-dark">Lorem</a>
-        </div>
-        </div>
+        <div>Lorem, ipsum.</div>
+        ``<a href="#" class="btn btn-dark">Lorem</a>
+      </div>
     </div>
-      <div class="card bg-light-subtle my-4">
+  </div>
+      <div class="card-referee bg-light-subtle my-4">
+        <img src="../assets/img/orang 1.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <div class="text-section">
+            <h5 class="card-title fw-bold">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card's content.</p>
+          </div>
+          <div class="cta-section">
+            <div>Lorem, ipsum.</div>
+            <a href="#" class="btn btn-dark">Lorem</a>
+          </div>
+        </div>
+      </div>
+      <div class="card-referee bg-light-subtle my-4">
         <img class="card-img-top" alt="...">
         <div class="card-body">
           <div class="text-section">
@@ -178,7 +207,7 @@
           </div>
         </div>
       </div>
-      <div class="card bg-light-subtle my-4">
+      <div class="card-referee bg-light-subtle my-4">
         <img class="card-img-top" alt="...">
         <div class="card-body">
           <div class="text-section">
@@ -191,7 +220,7 @@
           </div>
         </div>
       </div>
-      <div class="card bg-light-subtle my-4">
+      <div class="card-referee bg-light-subtle my-4">
         <img class="card-img-top" alt="...">
         <div class="card-body">
           <div class="text-section">
@@ -204,7 +233,7 @@
           </div>
         </div>
       </div>
-      <div class="card bg-light-subtle my-4">
+      <div class="card-referee bg-light-subtle my-4">
         <img class="card-img-top" alt="...">
         <div class="card-body">
           <div class="text-section">
@@ -217,7 +246,7 @@
           </div>
         </div>
       </div>
-      <div class="card bg-light-subtle my-4">
+      <div class="card-referee bg-light-subtle my-4">
         <img class="card-img-top" alt="...">
         <div class="card-body">
           <div class="text-section">
@@ -230,20 +259,7 @@
           </div>
         </div>
       </div>
-      <div class="card bg-light-subtle my-4">
-        <img class="card-img-top" alt="...">
-        <div class="card-body">
-          <div class="text-section">
-            <h5 class="card-title fw-bold">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card's content.</p>
-          </div>
-          <div class="cta-section">
-            <div>Lorem, ipsum.</div>
-            <a href="#" class="btn btn-dark">Lorem</a>
-          </div>
-        </div>
-      </div>
-      <div class="card bg-light-subtle my-4 ">
+      <div class="card-referee bg-light-subtle my-4 ">
         <img class="card-img-top" alt="...">
         <div class="card-body">
           <div class="text-section">
@@ -260,7 +276,7 @@
        
 <!-- Row Content two  -->
     <div class="col-md-6 ">
-        <div class="card bg-light-subtle my-4">
+        <div class="card-referee bg-light-subtle my-4">
             <img class="card-img-top" alt="...">
             <div class="card-body">
               <div class="text-section">
@@ -274,7 +290,7 @@
             </div>
           </div>
 
-          <div class="card bg-light-subtle my-4">
+          <div class="card-referee bg-light-subtle my-4">
             <img class="card-img-top" alt="...">
             <div class="card-body">
               <div class="text-section">
@@ -288,7 +304,7 @@
             </div>
           </div>
           
-            <div class="card bg-light-subtle my-4">
+            <div class="card-referee bg-light-subtle my-4">
             <img class="card-img-top" alt="...">
             <div class="card-body">
               <div class="text-section">
@@ -302,7 +318,7 @@
             </div>
           </div>
 
-            <div class="card bg-light-subtle my-4">
+            <div class="card-referee bg-light-subtle my-4">
             <img class="card-img-top" alt="...">
             <div class="card-body">
               <div class="text-section">
@@ -316,7 +332,7 @@
             </div>
           </div>
 
-            <div class="card bg-light-subtle my-4">
+            <div class="card-referee bg-light-subtle my-4">
             <img class="card-img-top" alt="...">
             <div class="card-body">
               <div class="text-section">
@@ -330,7 +346,7 @@
             </div>
           </div>
 
-          <div class="card bg-light-subtle my-4">
+          <div class="card-referee bg-light-subtle my-4">
             <img class="card-img-top" alt="...">
             <div class="card-body">
               <div class="text-section">
@@ -344,7 +360,7 @@
             </div>
           </div>
 
-          <div class="card bg-light-subtle my-4">
+          <div class="card-referee bg-light-subtle my-4">
             <img class="card-img-top" alt="...">
             <div class="card-body">
               <div class="text-section">
@@ -358,7 +374,7 @@
             </div>
           </div>
 
-          <div class="card bg-light-subtle my-4">
+          <div class="card-referee bg-light-subtle my-4">
             <img class="card-img-top" alt="...">
             <div class="card-body">
               <div class="text-section">
