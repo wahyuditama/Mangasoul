@@ -6,19 +6,19 @@ session_start();
 
 
 // Hubungkan ke database
-require_once('database/koneksi.php');
+require_once('config/conn.php');
 
 // Tangkap data dari form login
 $username = $_POST['username'];
 $password = $_POST['password'];
 
 // Lindungi dari SQL Injection
-$username = $koneksi->real_escape_string($username);
-$password = $koneksi->real_escape_string($password);
+$username = $conn->real_escape_string($username);
+$password = $conn->real_escape_string($password);
 
 // Query untuk mencari pengguna dengan username dan password yang sesuai
 $query = "SELECT * FROM admin WHERE username='$username' AND password='$password'";
-$result = $koneksi->query($query);
+$result = $conn->query($query);
 
 if ($result->num_rows > 0) {
     // Login berhasil
