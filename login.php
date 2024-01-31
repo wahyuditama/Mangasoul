@@ -8,7 +8,7 @@
 <body>
 
     <h3>TES CUY</h3>
-    <form action="" method="POST">
+    <form action="validasi.php" method="POST">
     <input type="text" placeholder="username"  name="username" aria-label="Search">
     <input type="password" placeholder="password" name="password" aria-label="Search">
     <button type="submit" name="login">Login</button>
