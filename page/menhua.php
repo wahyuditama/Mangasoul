@@ -25,7 +25,7 @@
 
   </style>
 
-  <body style="background: url(./assets/img/pattern.jpg);">
+  <body >
 <!--     navbar -->
   <?php 
     include ("../view/main view/navbar.php");
