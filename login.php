@@ -7,6 +7,13 @@
 </head>
 <body>
 
+
+    <h3>TES CUY</h3>
+    <form action="validasi.php" method="POST">
+    <input type="text" placeholder="username"  name="username" aria-label="Search">
+    <input type="password" placeholder="password" name="password" aria-label="Search">
+    <button type="submit" name="login">Login</button>
+
 <h2>Login</h2>
 <form action="process_login.php" method="post">
     <label for="username">Username:</label>
