@@ -14,41 +14,22 @@
     <input type="password" placeholder="password" name="password" aria-label="Search">
     <button type="submit" name="login">Login</button>
 
-    <h2>Login</h2>
+<h2>Login</h2>
+<form action="process_login.php" method="post">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required>
     
-    <?php
-    // Menangani form submit
-    if ($_SERVER["REQUEST_METHOD"] == "POST") {
-        // Mendapatkan data dari form
-        $username = $_POST["username"];
-        $password = $_POST["password"];
+    <br>
 
-        // Panggil file koneksi
-        include("koneksi.php");
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+    
+    <br>
 
-        // Panggil fungsi untuk memproses login
-        include("process_login.php");
-        $login_result = processLogin($username, $password);
+    <button type="submit">Login</button>
+</form>
 
-        // Periksa hasil login
-        if ($login_result === true) {
-            echo "Login berhasil!";
-            // Redirect atau lakukan aksi sesuai kebutuhan setelah login
-        } else {
-            echo "Login gagal. Silakan cek username dan password.";
-        }
-    }
-    ?>
-
-    <form method="post" action="">
-        <label for="username">Username:</label>
-        <input type="text" name="username" required><br>
-        
-        <label for="password">Password:</label>
-        <input type="password" name="password" required><br>
-        
-        <input type="submit" value="Login">
-    </form>
+<p>Belum punya akun? <a href="register.php">Daftar disini</a></p>
 
 </body>
 </html>
