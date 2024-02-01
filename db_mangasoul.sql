@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 31, 2024 at 04:41 PM
--- Server version: 10.4.32-MariaDB
--- PHP Version: 8.2.12
+-- Waktu pembuatan: 01 Feb 2024 pada 11.09
+-- Versi server: 10.4.32-MariaDB
+-- Versi PHP: 8.2.12
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -24,29 +24,7 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `admin`
---
-
-CREATE TABLE `admin` (
-  `id` int(11) NOT NULL,
-  `username` varchar(50) NOT NULL,
-  `password` varchar(50) NOT NULL,
-  `email` varchar(50) NOT NULL,
-  `create_at` int(11) NOT NULL DEFAULT current_timestamp()
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
---
--- Dumping data for table `admin`
---
-
-INSERT INTO `admin` (`id`, `username`, `password`, `email`, `create_at`) VALUES
-(1, 'ryo', 'ryo123', '', 1),
-(2, '', '', '', 1);
-
--- --------------------------------------------------------
-
---
--- Table structure for table `genre`
+-- Struktur dari tabel `genre`
 --
 
 CREATE TABLE `genre` (
@@ -58,7 +36,7 @@ CREATE TABLE `genre` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `jenis`
+-- Struktur dari tabel `jenis`
 --
 
 CREATE TABLE `jenis` (
@@ -71,7 +49,7 @@ CREATE TABLE `jenis` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `manga`
+-- Struktur dari tabel `manga`
 --
 
 CREATE TABLE `manga` (
@@ -81,61 +59,83 @@ CREATE TABLE `manga` (
   `create_at` int(11) NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
+-- --------------------------------------------------------
+
+--
+-- Struktur dari tabel `users`
+--
+
+CREATE TABLE `users` (
+  `id` int(11) NOT NULL,
+  `username` varchar(50) NOT NULL,
+  `password` varchar(50) NOT NULL,
+  `email` varchar(50) NOT NULL,
+  `create_at` int(11) NOT NULL DEFAULT current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data untuk tabel `users`
+--
+
+INSERT INTO `users` (`id`, `username`, `password`, `email`, `create_at`) VALUES
+(6, 'ryo', '123', '', 2147483647),
+(7, 'wafin', 'wafin', '', 2147483647);
+
 --
 -- Indexes for dumped tables
 --
 
 --
--- Indexes for table `admin`
---
-ALTER TABLE `admin`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `genre`
+-- Indeks untuk tabel `genre`
 --
 ALTER TABLE `genre`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `jenis`
+-- Indeks untuk tabel `jenis`
 --
 ALTER TABLE `jenis`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `manga`
+-- Indeks untuk tabel `manga`
 --
 ALTER TABLE `manga`
   ADD PRIMARY KEY (`id`);
 
 --
--- AUTO_INCREMENT for dumped tables
+-- Indeks untuk tabel `users`
+--
+ALTER TABLE `users`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- AUTO_INCREMENT untuk tabel yang dibuang
 --
 
 --
--- AUTO_INCREMENT for table `admin`
---
-ALTER TABLE `admin`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
-
---
--- AUTO_INCREMENT for table `genre`
+-- AUTO_INCREMENT untuk tabel `genre`
 --
 ALTER TABLE `genre`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT for table `jenis`
+-- AUTO_INCREMENT untuk tabel `jenis`
 --
 ALTER TABLE `jenis`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT for table `manga`
+-- AUTO_INCREMENT untuk tabel `manga`
 --
 ALTER TABLE `manga`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT untuk tabel `users`
+--
+ALTER TABLE `users`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
