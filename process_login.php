@@ -1,31 +1,23 @@
 <?php
-// Fungsi untuk memproses login
-function processLogin($username, $password) {
-    // Panggil file koneksi
-    include "config/koneksi.php";
+session_start();
+include 'config/conn.php';
 
-    // Lakukan pemeriksaan login
-    $query = "SELECT * FROM admin WHERE username = '$username'";
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $username = $_POST["username"];
+    $password = $_POST["password"];
+
+    // Periksa ke database, sesuaikan dengan struktur tabel dan kolom di database kamu
+    $query = "SELECT * FROM users WHERE username='$username' AND password='$password'";
     $result = mysqli_query($conn, $query);
 
-    // Periksa apakah username ditemukan
-    if ($result && mysqli_num_rows($result) > 0) {
-        $row = mysqli_fetch_assoc($result);
-        $hashed_password = $row['password'];
-
-        // Periksa apakah password cocok
-        if (password_verify($password, $hashed_password)) {
-            // Login berhasil
-            return true;
-        } else {
-            // Password tidak cocok
-            return false;
-        }
+    if (mysqli_num_rows($result) == 1) {
+        // Login berhasil, redirect ke halaman dashboard atau halaman lain yang diinginkan
+        $_SESSION["username"] = $username;
+        header("Location: ../mangasoul/");
+   
     } else {
-        // Username tidak ditemukan
-        return false;
+        // Login gagal
+        echo "Login gagal. Periksa kembali username dan password.";
     }
-
-    // Tidak perlu menutup koneksi di sini, karena $conn sudah ada di file koneksi.php
 }
 ?>
