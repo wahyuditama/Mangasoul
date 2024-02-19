@@ -92,12 +92,13 @@
               <p>Haloo Guest</p>
               <p>we are bad mood to be have your back again</p>
             </div>
+            <form action="process_login.php" method="POST">
             <div class="input-group mb-3">
-              <input type="text" class="form-control form-control-lg bg-light fs-6" placeholder="email adress" />
+              <input type="text" class="form-control form-control-lg bg-light fs-6" placeholder="email adress" name="username" />
             </div>
 
             <div class="input-group mb-1">
-              <input type="password" class="form-control form-control-lg bg-light fs-6" placeholder="password" />
+              <input type="password" class="form-control form-control-lg bg-light fs-6" placeholder="password" name="password" />
             </div>
 
             <div class="input-group mb-5 d-flex justify-content-between">
@@ -118,6 +119,7 @@
             <div class="row">
               <small>Do your Having Account ?!@ <a href="">Sign Up in kene</a></small>
             </div>
+          </form>
           </div>
         </div>
       </div>
