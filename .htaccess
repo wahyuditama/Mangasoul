@@ -5,11 +5,13 @@
   # Aturan pengalihan internal untuk /manga
   RewriteRule ^manga$ view/main\ view/manga/manga.php [L]
   
-  # Aturan pengalihan internal untuk /genre
+  # Aturan pengalihan internal untuk /genres
   RewriteRule ^genres$ view/main\ view/genres/genre_search.php [L]
-  # Aturan pengalihan internal untuk /genre
+  
+  # Aturan pengalihan internal untuk /menhuas
   RewriteRule ^menhuas$ page/menhua.php [L]
-  # Aturan pengalihan internal untuk /genre
+  
+  # Aturan pengalihan internal untuk /menwas
   RewriteRule ^menwas$ page/menwa.php [L]
 
   # Aturan pengalihan lainnya
