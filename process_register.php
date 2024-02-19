@@ -26,9 +26,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $insert_result = mysqli_query($conn, $insert_query);
 
     if ($insert_result) {
-        echo "Registrasi berhasil! Silakan login <a href='login.php'>disini</a>.";
+        echo "Registrasi berhasil! Silakan login <a href='masuk.php'>disini</a>.";
     } else {
         echo "Registrasi gagal. Silakan coba lagi.";
     }
 }
+
 ?>
