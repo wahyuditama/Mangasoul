@@ -11,7 +11,7 @@
 
 <body>
   <div class="wrapper">
-    <form action="process_regis.php">
+    <form action="process_register.php" method="POST">
       <h1>REGISTER</h1>
       <div class="input-box">
         <input type="text" placeholder="Username" name="username" />
